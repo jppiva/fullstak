@@ -1,0 +1,49 @@
+{
+    "name": "fullstak",
+    "version": "1.0.0",
+    "description": "Projeto template padrão didático de front-end com NextJS (App Router) e React.",
+    "private": true,
+    "keywords": [
+        "javascript",
+        "nextjs",
+        "next",
+        "react",
+        "app-router",
+        "front-end",
+        "frontend",
+        "biome",
+        "codeverse"
+    ],
+    "homepage": "https://codeverse.dev.br/",
+    "author": {
+        "name": "Piva"
+    },
+    "contributors": [
+        {
+            "name": "Marcello",
+            "url": "https://github.com/mapcarboni/"
+        },
+        {
+            "name": "Thiago",
+            "url": "https://github.com/thiago-rferreira/"
+        }
+    ],
+    "license": "MIT",
+    "engines": {
+        "node": ">=20"
+    },
+    "scripts": {
+        "dev": "cls && next dev",
+        "lint": "biome check",
+        "format": "biome format --write"
+    },
+    "dependencies": {
+        "next": "^16.4.6",
+        "react": "^19.3.1",
+        "react-dom": "^19.3.1"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^2.6.8",
+        "babel-plugin-react-compiler": "^1.0.0"
+    }
+}
